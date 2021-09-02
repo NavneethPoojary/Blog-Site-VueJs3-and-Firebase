@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background: #f8f8f8;
+}
+
+form {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #ffff;
+  border-radius: 10px;
+  padding: 30px 15px;
+  box-shadow: 8px 8px 8px 15px rgb(200, 243, 243);
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 70%;
+  border: 0;
+  border-bottom: 1px solid #85929e;
+  padding: 30px 20px;
+  margin-bottom: 5px;
+  outline: none;
+}
+::placeholder {
+  font-size: 20px;
+}
+button {
+  display: block;
+  padding: 10px;
+  background: 0;
+  border: 0;
+  border-radius: 8px;
+  margin: 10px auto;
+  font-size: 20px;
+  font-weight: bold;
+  background: #839192;
+  color: #fff;
+}
+.error {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px;
+}
